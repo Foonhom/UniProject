@@ -1,0 +1,74 @@
+html, body, h1, h2, h3, p, ol, ul, li, a {
+    padding: 0;
+    border: 0;
+    margin: 0;
+}
+body {
+    background-image: url(pic/webbg.png);
+    background-size: 2000px;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.content {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content .textbox {
+    position:relative;
+    max-width: 750px;
+    margin: 10px 0 30px 60px;
+}
+
+.content .textbox h2 {
+    color:darkgreen;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 55px;
+}
+
+.content .textbox span {
+    color: mediumseagreen;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.content .textbox p {
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 10px;
+}
+
+
+.content .textbox a {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 8px 20px;
+    background-color: whitesmoke;
+    color: mediumseagreen;
+    border: 2px solid mediumseagreen;
+    border-radius: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-decoration: none;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.content a:hover, a:active {
+    background-color: mediumseagreen;
+    color: white;
+}
+
+.content .img {
+    width: 50px;
+    position: relative;
+    margin: 140px 10px 0 1160px;
+}
+
+
